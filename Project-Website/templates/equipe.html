@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='style4.css')}}">
+    
+    <title>Equipe | Leandre Wunsch</title>
+</head>
+
+<body>
+
+    <div class="hero-slider" carousel>
+        <div class="carousel-cell" style="background-image: url(/static/Leandre.png);">
+            <div class="gradient"></div>
+            <div class="info-container">
+                <h3 class="header">Leandre</h3>
+                <h2 class="text"></h2>
+                <a href="{{url_for('moto1')}}"><button>Retour au site</button></a>
+            </div>
+
+        </div>
+
+        <div class="carousel-cell" style="background-image:url(/static/arthur.png);">
+            <div class="gradient"></div>
+            <div class="info-container">
+                <h3 class="header">Arthur</h3>
+                <h2 class="text"></h2>
+                <a href="{{url_for('moto1')}}"><button>Retour au site</button></a>
+            </div>
+
+        </div>
+
+        <div class="carousel-cell" style="background-image:url(/static/IMG_1324.jpg);">
+            <div class="gradient"></div>
+            <div class="info-container">
+                <h3 class="header">Equipe</h3>
+                <h2 class="text"></h2>
+                <a href="{{url_for('moto1')}}"><button>Retour au site</button></a>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
+    <script src="{{url_for('static', filename='index.js')}}"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style3.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>BMW | Leandre</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" class="logo" alt="">
+            <div class="menu">
+                <a href="{{url_for('moto1')}}">Accueil</a>
+                <a href="{{url_for('equipe')}}">Equipe</a>
+                <a href="{{url_for('modelselect')}}">Modèles</a>
+                <a href="https://www.bmw-motorrad.fr/fr/experience/news-gallery.html">News</a>
+            </div>
+        
+            <div class="reseaux">
+                <a href="."><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="A">
+        <div class="boxcontainer">
+            <div class="custom-box">
+                <img src="/static/r18.png" alt="Image 1">
+                <h2>Bagger R18</h2>
+                <p>LA BMW R 18, UN CRUISER AU LOOK RÉTRO ET AU MOTEUR BOXER GROSSE CYLINDRÉE.SON ÂME EST SON VÉRITABLE CARBURANT.La BMW R 18 fait écho à l'histoire de BMW Motorrad .</p>
+                <a href="box1link.html" class="button">Voir plus</a>
+            </div>
+            <div class="custom-box">
+                <img src="/static/r18B.jpg" alt="Image 2">
+                <h2>Bagger 18B</h2>
+                <p>La R 18 B combine un maximum de puissance aux légendaires caractéristiques des motos routières de BMW et à l'émotion suscitée par la gamme R 18.</p>
+                <a href="box2link.html" class="button">Voir plus</a>
+            </div>
+        </div>
+
+        <div class="texte">
+            <h1>Nos Motos</h1>
+        </div>
+    </div>
+</body>
+</html>
